@@ -1,10 +1,10 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](cyan)\
-[39](bg:cyan fg:background)\
+[](light_purple)\
+[11](bg:light_purple fg:background)\
 $username\
-[](bg:background fg:cyan)\
+[](bg:background fg:light_purple)\
 $directory\
 [](fg:background bg:green)\
 $git_branch(fg:foreground bg:green)\
@@ -28,25 +28,25 @@ $pixi\
 $line_break$character"""
 
 # Use the color palette
-palette = "miku"
+palette = "codegeass"
 
-[palettes.miku]
-background = "#137a7f"
+[palettes.codegeass]
+background = "#5051BF"
 current_line = "#232f7b"
 foreground = "#ffffeb"
 comment = "#0e85a3"
-cyan = "#86cecb"
-green = "#09eda9"
+light_purple = "#9489CC"
+green = "#43CF92"
 orange = "#f5ff87"
 pink = "#e12885"
 purple = "#a5157a"
-red = "#e23d69"
-yellow = "#f5ff87"
+red = "#AD2748"
+yellow = "#F4E4BC"
 
 
 [os]
 disabled = false
-style = "bg:cyan fg:background"
+style = "bg:light_purple fg:background"
 
 [os.symbols]
 Windows = "󰍲"
@@ -73,8 +73,8 @@ Pop = ""
 
 [username]
 show_always = true
-style_user = "bg:cyan    fg:background"
-style_root = "bg:cyan fg:background"
+style_user = "bg:light_purple    fg:background"
+style_root = "bg:light_purple fg:background"
 format = '[ $user ]($style)'
 
 [directory]
