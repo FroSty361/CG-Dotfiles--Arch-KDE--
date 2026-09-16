@@ -22,17 +22,17 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=30,87,116
-BackgroundNormal=41,44,48
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundNormal=59,51,80
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=61,174,233
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=240,240,244
 ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [Colors:Complementary]
 BackgroundAlternate=30,87,116
@@ -64,23 +64,23 @@ ForegroundVisited=155,89,182
 
 [Colors:Header][Inactive]
 BackgroundAlternate=41,44,48
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundNormal=25,28,30
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=61,174,233
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=240,240,244
 ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [Colors:Selection]
 BackgroundAlternate=30,87,116
-BackgroundNormal=61,174,233
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundNormal=80,69,107
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=252,252,252
 ForegroundInactive=161,169,177
 ForegroundLink=253,188,75
@@ -88,13 +88,13 @@ ForegroundNegative=176,55,69
 ForegroundNeutral=198,92,0
 ForegroundNormal=252,252,252
 ForegroundPositive=23,104,57
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [Colors:Tooltip]
 BackgroundAlternate=32,35,38
 BackgroundNormal=41,44,48
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=61,174,233
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
@@ -102,38 +102,39 @@ ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [Colors:View]
 BackgroundAlternate=29,31,34
-BackgroundNormal=20,22,24
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundNormal=46,49,58
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=61,174,233
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=240,240,244
 ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [Colors:Window]
 BackgroundAlternate=41,44,48
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundNormal=25,28,30
+DecorationFocus=89,91,211
+DecorationHover=89,91,211
 ForegroundActive=61,174,233
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=240,240,244
 ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+ForegroundVisited=148,137,204
 
 [General]
-ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
+ColorScheme=CodeGeassColors
+ColorSchemeHash=6cc1b23741c48304e528cff643dcfe72ca8037b6
 TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
 TerminalService=com.mitchellh.ghostty.desktop
 XftAntialias=true
@@ -142,12 +143,13 @@ XftSubPixel=none
 font=D2CodingLigature Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
-Theme=Papirus-Dark
+Theme=oxygen
 
 [KDE]
 LookAndFeelPackage=Miku
 contrast=4
 frameContrast=0.2
+widgetStyle=Windows
 
 [KFileDialog Settings]
 Allow Expansion=false

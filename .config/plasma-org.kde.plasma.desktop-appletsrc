@@ -170,4 +170,4 @@ AppletOrder=3;4;5;6;7;21;22
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/org.kde.konsole.desktop,0,fe40f2c5-3afc-4ca9-b197-99c7e221eed9
+screenMapping=desktop:/org.kde.konsole.desktop,0,fe40f2c5-3afc-4ca9-b197-99c7e221eed9,desktop:/steam.desktop,0,fe40f2c5-3afc-4ca9-b197-99c7e221eed9
