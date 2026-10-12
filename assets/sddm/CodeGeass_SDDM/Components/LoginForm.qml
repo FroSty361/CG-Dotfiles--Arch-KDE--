@@ -20,7 +20,7 @@ ColumnLayout {
         Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom
         // important
         Layout.preferredHeight: root.height / 3
-        Layout.leftMargin: (p != "0" ? a == "left" ? -p : a == "right" ? p : 0 : 0) - 1000
+        Layout.leftMargin: (p != "0" ? a == "left" ? -p : a == "right" ? p : 0 : 0)
     }
 
     Input {
@@ -28,7 +28,7 @@ ColumnLayout {
 
         Layout.alignment: Qt.AlignVCenter
         Layout.preferredHeight: root.height / 10
-        Layout.leftMargin: (p != "0" ? a == "left" ? -p : a == "right" ? p : 0 : 0) - 1000
+        Layout.leftMargin: (p != "0" ? a == "left" ? -p : a == "right" ? p : 0 : 0)
         Layout.topMargin:  0
     }
 

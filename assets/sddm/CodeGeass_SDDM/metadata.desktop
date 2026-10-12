@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=miku-theme
-Description=miku
+Name=codegeass-theme
+Description=codegeass
 Author=frosty
 Website=https://github.com/Keyitdev/sddm-astronaut-theme
 License=GPL-3.0-or-later
@@ -9,6 +9,6 @@ Version=1.3
 ConfigFile=theme.conf
 MainScript=Main.qml
 TranslationsDirectory=translations
-Theme-Id=miku-theme
+Theme-Id=code-geass-theme
 Theme-API=2.0
 QtVersion=6
